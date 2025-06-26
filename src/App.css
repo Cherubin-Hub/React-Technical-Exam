@@ -1,0 +1,128 @@
+/* Base Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Container */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for card effect */
+}
+
+/* Page Header */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Employee Form Layout */
+.employee-form {
+  display: flex;
+  flex-direction: column; /* Stack form fields vertically */
+}
+
+/* Input Fields Styling */
+.employee-form input {
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* Submit Button Styling */
+.employee-form button {
+  background-color: #007bff; /* Bootstrap blue */
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.employee-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Employee List Container */
+.employee-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+/* Individual Employee Card Styling */
+.employee-card {
+  background-color: #fdfdfd;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.employee-card p {
+  margin: 6px 0;
+}
+
+/* Button Action Container */
+.actions {
+  margin-top: 10px;
+}
+
+/* Edit & Delete Buttons */
+.edit-btn,
+.delete-btn {
+  padding: 6px 12px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Edit Button Styling */
+.edit-btn {
+  background-color: #ffc107; /* Bootstrap warning */
+  color: #333;
+}
+
+.edit-btn:hover {
+  background-color: #e0a800; /* Darker warning */
+}
+
+/* Delete Button Styling */
+.delete-btn {
+  background-color: #dc3545; /* Bootstrap danger */
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background-color: #c82333; /* Darker red */
+}
+
+/* Toggle Button Styling for showing/hiding details */
+.toggle-btn {
+  margin-top: 12px;
+  padding: 8px 14px;
+  background-color: #6c757d; /* Bootstrap secondary */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #5a6268; /* Darker gray */
+}
