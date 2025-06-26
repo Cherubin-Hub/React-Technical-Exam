@@ -130,8 +130,7 @@ END
 
 ### ⚙️ Setup
 
-1. Open terminal in `/backend` folder.
-2. Update your connection string in `appsettings.json`:
+Update your connection string in `appsettings.json`:
 
 ```json
 "ConnectionStrings": {
